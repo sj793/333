@@ -38,10 +38,10 @@ if page == "수업 소개":
 
 elif page == "편의점 지도":
     st.title("종로3가역 주변 편의점 지도")
-    st.write("아래는 동적으로 인터랙티브한 네이버 지도입니다.")
+    st.write("학교 주변에 있는 편의점을 검색해봅시다..")
 
     # 네이버 지도 API JavaScript Key
-    api_key = "YOUR_JAVASCRIPT_API_KEY"
+    api_key = "m16vbixgmxY"
 
     # HTML 코드로 네이버 지도 렌더링
     html_code = f"""
